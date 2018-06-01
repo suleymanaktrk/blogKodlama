@@ -106,6 +106,7 @@
     <Content Include="panel\js\sb-admin.js" />
     <Content Include="panel\js\sb-admin.min.js" />
     <Content Include="panel\kayit.aspx" />
+    <Content Include="panel\KullaniciOnay.aspx" />
     <Content Include="panel\login.aspx" />
     <Content Include="panel\sifremiunuttum.aspx" />
     <Content Include="panel\SifreYenile.aspx" />
@@ -329,6 +330,13 @@
     </Compile>
     <Compile Include="panel\kayit.aspx.designer.cs">
       <DependentUpon>kayit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="panel\KullaniciOnay.aspx.cs">
+      <DependentUpon>KullaniciOnay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="panel\KullaniciOnay.aspx.designer.cs">
+      <DependentUpon>KullaniciOnay.aspx</DependentUpon>
     </Compile>
     <Compile Include="panel\Log.Master.cs">
       <DependentUpon>Log.Master</DependentUpon>

@@ -19,7 +19,7 @@
                 <a class="d-block small mt-3" href="kayit.aspx">Register an Account</a>
                 <a class="d-block small" href="login.aspx">Login Page</a>
             </div>
-            <asp:Literal ID="ltrModal" Text="" runat="server" />
+            <asp:Literal ID="ltrModal" Text="" runat="server"  />
         </div>
     </div>
 </asp:Content>
